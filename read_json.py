@@ -93,6 +93,7 @@ def data_to_s3():
     for file in all_files:
         s3.meta.client.upload_file(r"C:\\Users\\Sachin.Pal\\Desktop\\pyspark_tut\\p_files\\"+file, bkt_name,
                                    "output_data/"+file )
+        os.remove(r"C:\\Users\\Sachin.Pal\\Desktop\\pyspark_tut\\p_files\\"+file)
     print("All files uploaded.....")
 
 

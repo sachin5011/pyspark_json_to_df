@@ -1,0 +1,35 @@
+#1. key value pair
+#Key :  value
+
+#2. list
+#key :
+#  - val1
+#  - val2
+#  - val3
+
+#3. Dict
+#Key :
+#  data1 : val1
+#  dat2 : val2
+
+#4. Multi string
+#key : |
+#  This
+#  is
+#  multiline string
+
+
+
+
+access_key : AKIA2YX2DSK3PH3LDTVG
+ecret_access_key : 4CcNUAUo1q4/PKOScHk0FzLnTF2+ncK87AM94Wli
+uri : 's3://test-buckte1/csv_data/athlete_events.csv'
+
+
+
+#password: password
+#username: username
+#users:
+#- user1
+#- user2
+#- user3
